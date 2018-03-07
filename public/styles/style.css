@@ -131,6 +131,37 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
 
+header {
+  background-image: url("../../assets/header-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+  height: 70vh; }
+  header .nav-bar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    font-family: "Gentium Book Basic", serif; }
+    header .nav-bar .col-7 {
+      margin-top: 21px; }
+    header .nav-bar ul {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      list-style-type: none;
+      font-size: 21px; }
+      header .nav-bar ul li {
+        padding: 3px 12px;
+        font-weight: 400;
+        letter-spacing: 1px;
+        color: "#fff"; }
+
 body {
-  margin: 0 auto; }
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1600px; }
 

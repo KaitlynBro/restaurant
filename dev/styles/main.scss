@@ -1,7 +1,11 @@
 @import 'setup';
 @import 'partials/variables';
+@import 'partials/header';
+
 
 // general styles
 body{
 	margin: 0 auto;
+	width: 100%;
+	max-width: 1600px;
 }

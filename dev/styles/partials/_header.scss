@@ -1,0 +1,29 @@
+header{
+	background-image: url('../../assets/header-bg.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center top;
+	height: 70vh;
+	.nav-bar{
+		display: flex;
+		flex-direction:row;
+		font-family: $nav-font;
+		.col-7{
+			margin-top: 21px;
+		}
+		ul{
+			display: flex;
+			list-style-type: none;
+			font-size: 21px;
+    		li{
+    			padding: 3px 12px;
+		    	font-weight: 400;
+		    	letter-spacing: 1px;
+		    	color: $white;
+		    	a{
+		    		color: $white;
+		    	}
+    		}
+		}
+	}
+}
